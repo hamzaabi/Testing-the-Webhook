@@ -1,0 +1,15 @@
+version: 2
+update:
+  - package-ecosystem: 'nuget'
+    directory: 'source/Serices/RPSLS.Game.Api'
+    schedule:
+      interval: 'daily'
+      open-pull-request-limit: 10
+      target-branch: develop'
+      assignees:
+        - hamza abidi
+      reviewers:
+        - amin
+      labels:
+        - "Priority: high"
+        - "Yo-ho-ho!"
